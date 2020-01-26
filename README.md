@@ -19,3 +19,5 @@
 </ul>
 
 <h3>High-Level Architecture Design</h3>
+<img src="https://github.com/MarkiEC13/MyAdventure/blob/master/_design/high-level-architecture.png" />
+
