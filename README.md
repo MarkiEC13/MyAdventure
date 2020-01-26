@@ -9,13 +9,13 @@
 	</br>
 	<li><a target="_blank" href="https://angular.io/start">Install angular 8</a></li>
   	<li>Create <a target="_blank" href="https://github.com/MarkiEC13/MyAdventure/tree/master/GetChoicesFunction">local.settings.json</a> file and configure CosmosDb connection string as followns,
-<pre>  
-"DocumentDbSettings": {
+<pre>"DocumentDbSettings": {
    "Uri": "",
    "AuthKey": "",
    "DatabaseId": "",
    "MaxRetryAttemptsOnThrottledRequests": 2,
    "MaxRetryWaitTimeInSeconds": 4
-}
-</pre></li>
+}</pre></li>
 </ul>
+
+<h3>High-Level Architecture Design</h3>
