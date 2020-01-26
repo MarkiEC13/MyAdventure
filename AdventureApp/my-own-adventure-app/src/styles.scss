@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/adventure-details/theming";
+
+
+.tree-chart-tc-box{
+    border: none !important;
+    box-shadow: none;
+}
+
+.tree-chart-tc-background.leaf {
+    align-items: center;
+    border: 1px solid #e6a284 !important;
+    background-color: #ffaf8c !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-transform: uppercase;
+}
+
+.tree-chart-tc-background.leaf.select {
+    border: 1px solid #000000 !important;
+    background-color: #fd0707 !important;
+}
+
+app-adventure > app-tree-chart:nth-child(1) > app-tree-chart-node {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+.tree-chart-tc-border{
+    border: 3px solid rgba(103,62,71,.8);
+}
+
+.adventure-img{
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+    opacity: 0.2;
+    z-index: -1;
+}

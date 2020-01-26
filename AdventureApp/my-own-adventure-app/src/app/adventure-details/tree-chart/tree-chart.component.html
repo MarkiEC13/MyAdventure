@@ -1,0 +1,16 @@
+  
+<app-tree-chart-node *ngIf="item" ngClass="tree-chart-tc-vertical" [item]="item" [hasParent]="hasParent" (itemClick)="itemClick.emit($event)">
+</app-tree-chart-node>
+<div *ngIf="item?.children?.length" ngClass="tree-chart-tc-reports-vertical" class="tree-chart-tc-reports">
+<ng-container *ngFor="let item of item?.children; first as isFirst; last as isLast">
+  <div ngClass="tree-chart-tc-org-container-vertical" class="tree-chart-tc-org-container">
+    <div ngClass="tree-chart-tc-connector-container-vertical" class="tree-chart-tc-connector-container">
+      <div class="tree-chart-tc-connector tree-chart-tc-border" [style.border-color]="isFirst?'transparent':''"></div>
+      <div class="tree-chart-tc-border"></div>
+      <div class="tree-chart-tc-connector tree-chart-tc-border" [style.border-color]="isLast?'transparent':''"></div>
+    </div>
+    <app-tree-chart [item]="item" [hasParent]="true" (itemClick)="itemClick.emit($event)">
+    </app-tree-chart>
+  </div>
+</ng-container>
+</div>

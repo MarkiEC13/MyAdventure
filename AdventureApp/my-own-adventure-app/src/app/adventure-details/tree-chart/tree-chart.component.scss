@@ -1,0 +1,41 @@
+:host {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .tree-chart-tc {
+    &-vertical {
+      flex-direction: column;
+    }
+  
+    &-org-container {
+      display: flex;
+  
+      &-vertical {
+        flex-direction: column;
+      }
+    }
+  
+    &-connector {
+      flex: 1;
+  
+      &-container {
+        display: flex;
+  
+        &-horizontal {
+          flex-direction: column;
+        }
+      }
+    }
+  
+    &-reports {
+      display: flex;
+      flex: 1;
+  
+      &-horizontal {
+        flex-direction: column;
+      }
+    }
+  }

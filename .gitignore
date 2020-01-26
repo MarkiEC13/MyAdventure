@@ -3,3 +3,10 @@
 ################################################################################
 
 /Adventure.Core/bin
+/.vs
+/Adventure.Persistence/bin
+/Adventure.Persistence/obj
+/Adventure.Persistence.Test/bin/Debug/netcoreapp3.1
+/Adventure.Persistence.Test/obj
+/GetChoicesFunction.Test/bin/Debug/netcoreapp3.1
+/GetChoicesFunction.Test/obj

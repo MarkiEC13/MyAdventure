@@ -1,0 +1,9 @@
+  
+<div ngClass="tree-chart-tc-connector-vertical" class="tree-chart-tc-border" *ngIf="hasParent"></div>
+<div [ngClass]="item?.cssClass" class="tree-chart-tc-box tree-chart-tc-border tree-chart-tc-background"
+  (click)="itemClick.emit(item)">
+  <div>
+    <div class="tree-chart-tc-name">{{item?.value}}</div>
+  </div>
+</div>
+<div ngClass="tree-chart-tc-connector-vertical" class="tree-chart-tc-border" *ngIf="item?.children?.length"></div>

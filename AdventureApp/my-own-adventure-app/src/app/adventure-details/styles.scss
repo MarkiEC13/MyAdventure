@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Patua+One&display=swap');
+@import "_theming.scss";
+
+html, body {
+  display: flex;
+  flex: 1;
+}
+
+.tree-chart-tc-name {
+  font-family: 'Patua One', cursive;
+}
+
+.tree-chart-tc-designation {
+  font-family: 'Oswald', sans-serif;
+}
+
+.tree-chart-tc-border {
+  border-color: #9E9E9E;
+}
+
+.tree-chart-tc-box {
+  color: white;
+  width: 10em;
+}
+
+.tree-chart-tc-ceo {
+  background-color: #4caf50;
+}
+.tree-chart-tc-head {
+  background-color: #03A9F4;
+}
+.tree-chart-tc-vp {
+  background-color: #607D8B;
+}
+.tree-chart-tc-man {
+  background-color: #9C27B0;
+}
