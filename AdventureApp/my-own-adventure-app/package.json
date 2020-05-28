@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.14",
     "@mondal/org-chart": "^8.1.1",
     "rxjs": "~6.4.0",
-    "tslib": "^1.10.0",
+    "tslib": "^1.11.2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
